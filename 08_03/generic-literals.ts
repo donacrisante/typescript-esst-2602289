@@ -6,6 +6,9 @@ export function Demo() {
     VehicleType extends PossibleTypes
   > = `ID_${VehicleType}_${number}`;
 
+  // le extends est là pour indiquer à TS quel type doit avoir VehicleType. En l'occurrence string.
+  // extends PossibleTypes = permet uniquement d'avoir CAR ou BUS. Pas possible de mettre un autre string. 
+
   type VehicleBusId = VehicleTypeGeneric<"BUS">;
   type VehicleCarId = VehicleTypeGeneric<"CAR">;
 

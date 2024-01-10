@@ -4,4 +4,7 @@
     "module": "ESNext"
   },
   "include": ["hallo.ts"]
+
+  // Glob-Pattern: fait référence à tous les fichiers ts, de facon à ce qu'on ne doive pas les ajouter tous à la main.
+  // "include": ["**/*.ts"]
 }

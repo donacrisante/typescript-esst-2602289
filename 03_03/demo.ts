@@ -7,3 +7,5 @@ export function Demo() {
 
   errorCode = "ERROR_500";
 }
+
+//So kann man fixe Typen definieren und dabei mehrere mögliche Werte über die "oder" pipe. 

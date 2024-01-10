@@ -2,7 +2,12 @@
   "compilerOptions": {
     "target": "ES3",
     "module": "CommonJS",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "ignoreDeprecations": "5.0"
   },
   "include": ["demo.ts"]
 }
+
+// On peut aussi déclarer ce qui ne doit pas être compilé:
+// "include": ["**/*.ts"],
+// "exculde": ["michnicht.ts", "xx.ts", ...]

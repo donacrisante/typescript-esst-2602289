@@ -13,3 +13,5 @@ export function Demo() {
     [5, 7, 11],
   ];
 }
+
+// Die zweite Schreibweise ist die generic Schreibweise (siehe Kap. 8).

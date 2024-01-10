@@ -18,3 +18,6 @@ export function Demo() {
 
   console.log(personOrAnimal2.name, personOrAnimal2.animal);
 }
+
+// Wenn wir an einer bestimmten Stelle exakt wissen, dass es kein anderer Wert als bspw. Animal sein kann, dann können wir schreiben, die Value, also der Funktionsaufruf, der uns die Value zurückliefert in diesem Fall und dann "as Animal". 
+// Wenn man nicht zu 100% sicher ist, was der Wert ist, dann lieber type guarding als type casting verwenden.  

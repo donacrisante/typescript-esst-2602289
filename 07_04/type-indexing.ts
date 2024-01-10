@@ -11,3 +11,5 @@ export function Demo() {
     someType: MyArrayType[2];
   }
 }
+
+// Mit Type-Indexing kann man einzelne Typen aus einem vorhandenen Typ heraus extrahieren. 

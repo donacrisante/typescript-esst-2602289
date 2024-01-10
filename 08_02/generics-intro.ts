@@ -11,3 +11,5 @@ export function Demo() {
     | "FRONTEND_ERROR";
   type ServerErrors = Exclude<Errors, "FRONTEND_ERROR">;
 }
+
+// Generics sind diese Gruppe, in der wir mit beliebigen Types arbeiten können.
